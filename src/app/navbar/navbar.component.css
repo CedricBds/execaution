@@ -1,0 +1,241 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 10%;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 20%;
+}
+/*#eeff00 hover */
+
+.navitem a{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Khand', sans-serif;
+    transition: 1s ease;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.navitem a:hover{
+    color: #eeff00;
+}
+
+.down{
+padding: 0 5%;
+}
+
+.serve{
+    padding: 0% 5%;
+
+}
+.titlenavsection{
+text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+}
+
+/*SECTIONS HOVER*/
+
+/*DEDICATED*/
+.dedicatedserv{
+    display: none;
+    grid-template-columns: 50% 50%;
+    width: 65vh;
+    height: 25vh;
+    background-color: #e8e900;
+position: absolute;
+    z-index: 9;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: rgb(0 0 0) 0px 10px 20px, rgb(0 0 0 / 60%) 0px 6px 6px;
+
+}
+
+.dedicatedservices{
+    width: 68vh;
+    height: 25vh;
+    position: absolute;
+}
+
+.linktreededicated li{
+    display: block;
+    color: white;
+    transition: 1s ease
+    ;}
+
+    .linktreededicated li:hover{
+        color: #bd6c05;
+        transform: scale(1.1);
+        cursor: pointer;
+        
+    }
+    
+    .leftdedicated{
+        background-color: rgb(37, 37, 37);
+    
+    }
+    .specstreededicated li{
+        display: block;
+        color: #e8e900;
+        text-decoration: underline;
+        padding: 1%;
+        font-size: 15px;
+    }
+    .specstreededicated{
+        color: white;
+    }
+
+
+
+    .specstreededicated li{
+        display: block;
+        color: #e8e900;
+        text-decoration: underline;
+        padding: 1%;
+        font-size: 15px;
+    }
+    .specstreededicated{
+        color: white;
+    }
+
+.navitem:hover .dedicatedserv {     
+
+     display: grid;
+}
+
+
+/*CLOUD*/
+
+
+.cloudserv
+{
+    display: none;
+    grid-template-columns: 50% 50%;
+    width: 65vh;
+    height: 25vh;
+    background-color: #e8e900;
+    position: absolute;
+    z-index: 9;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: rgb(0 0 0) 0px 10px 20px, rgb(0 0 0 / 60%) 0px 6px 6px;
+
+}
+
+.cloudservices{
+    width: 68vh;
+    height: 25vh;
+    position: absolute;
+}
+
+.linktreecloud li{
+    display: block;
+    color: white;
+    transition: 1s ease
+    ;}
+
+    .linktreecloud li:hover{
+        color: #bd6c05;
+        transform: scale(1.1);
+        cursor: pointer;
+        
+    }
+    
+    .leftcloud{
+        background-color: rgb(37, 37, 37);
+    
+    }
+
+    .specstreecloud li{
+        display: block;
+        color: #e8e900;
+        text-decoration: underline;
+        padding: 1%;
+        font-size: 15px;
+    }
+    .specstreecloud{
+        color: white;
+    }
+
+    .navitem:hover .cloudserv {     
+
+        display: grid;
+   }
+
+
+   /*WEB*/
+   .webserv
+{
+    display: none;
+    grid-template-columns: 50% 50%;
+    width: 65vh;
+    height: 25vh;
+    background-color: #e8e900;
+    position: absolute;
+    z-index: 9;
+    font-size: 20px;
+    margin-top: 2%;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: rgb(0 0 0) 0px 10px 20px, rgb(0 0 0 / 60%) 0px 6px 6px;
+
+}
+
+.webservices{
+    width: 68vh;
+    height: 25vh;
+    position: absolute;
+}
+
+.linktreeweb li{
+    display: block;
+    color: white;
+    transition: 1s ease
+    ;}
+
+    .linktreeweb li:hover{
+        color: #bd6c05;
+        transform: scale(1.1);
+        cursor: pointer;
+        
+    }
+    
+    .leftweb{
+        background-color: rgb(37, 37, 37);
+    
+    }
+
+    .specstreeweb li{
+        display: block;
+        color: #e8e900;
+        text-decoration: underline;
+        padding: 1%;
+        font-size: 15px;
+    }
+    .specstreeweb{
+        color: white;
+    }
+
+    .navitem:hover .webserv {     
+
+        display: grid;
+   }
+   
+
+/*MISC*/ 
+
+.titlenavsectionspec{
+    color: #e8e900;
+    text-align: center;
+    font-size: 20px;
+}
+
+.infoservice{
+    margin-block-start: 0;
+    bottom: 15px;
+font-size: 13px;
+}
