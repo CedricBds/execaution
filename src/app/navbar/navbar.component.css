@@ -22,6 +22,10 @@
 .navitem a:hover{
     color: #eeff00;
 }
+.navitem:hover .serve{
+    animation: iconserv 500ms;
+    transition: 500ms ease;
+}
 
 .down{
 padding: 0 5%;
@@ -29,8 +33,17 @@ padding: 0 5%;
 
 .serve{
     padding: 0% 5%;
-
+    transition: 1s ease;
 }
+
+@keyframes iconserv
+ {50%{transform: rotate(10deg);}
+100% {transform: rotate(-10deg);}
+}
+
+
+
+
 .titlenavsection{
 text-align: center;
     color: rgb(37, 37, 37);
